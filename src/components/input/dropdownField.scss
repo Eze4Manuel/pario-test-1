@@ -1,0 +1,40 @@
+@import "../../index.scss";
+
+.dropdown-field {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    .label {
+        font-weight: 900;
+        font-size: 20px;
+        margin-top: 15px;
+        .required {
+            color: red;
+            margin-left: 5px;
+        }
+    }
+    .sublabel {
+        font-weight: 900;
+        margin: 10px 0px;
+        font-size: 16px;
+        color: $base-color-light-blue-one;
+    }
+    .input {
+        height: 55px;
+        border: 1px solid $base-black-one;
+        padding: 0px 20px;
+        border-radius: 10px;
+        font-size: 20px;
+        color: $base-color-grey-two;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        font-family: "Product Sans", sans-serif;
+        background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right
+            #fff;
+        -webkit-appearance: none;
+        background-position-x: 94%;
+    }
+    select {
+    }
+}

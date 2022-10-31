@@ -1,0 +1,28 @@
+@import "./index.scss";
+
+.App {
+  .background-container {
+    position: fixed;
+    width: 100%;
+    .background-section {
+      background-color: $background-color;
+      height: 100vh;
+      transform: skew(0deg, -16deg) translateY(-340px);
+      .background-upper-section {
+        transform: skew(0deg, 19deg);
+      }
+    }
+  }
+  .content-container {
+    position: relative;
+    width: 50%;
+    margin: auto;
+    padding: 150px 0px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .content-container {
+    width: 60% !important;
+  }
+}

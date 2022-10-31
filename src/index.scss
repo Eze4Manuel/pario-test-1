@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Product Sans";
+  font-style: normal;
+  src: local("Open Sans"), local("OpenSans"),
+    url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format("woff2");
+}
+$background-color: antiquewhite;
+$base-color-orange-one: #f2994a;
+$base-color-orange-two: #f2c94c;
+$base-color-purple-one: #4e598c;
+$base-color-light-blue-one: #817e9e;
+$base-color-grey-one: #bdbdbd;
+$base-color-grey-two: #4f4f4f;
+$base-white-one: #ffffff;
+$base-black-one: #000000;
+$base-blue-one: #2f80ed;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #fff;
+  font-family: "Product Sans", sans-serif;
+}

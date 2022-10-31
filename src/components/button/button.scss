@@ -1,0 +1,23 @@
+@import "../../index.scss";
+
+.button {
+    padding: 12px 25px;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    margin: 50px 0px;
+    font-family: "Product Sans", sans-serif;
+}
+.action {
+    color: $base-white-one;
+    font-size: 20px;
+    background-image: linear-gradient(to bottom, $base-color-orange-two, $base-color-orange-one);
+}
+
+.default {
+    background: transparent;
+    font-weight: bold;
+    line-height: 30px;
+    font-size: 20px;
+    color: $base-color-purple-one;
+}
